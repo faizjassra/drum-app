@@ -3,7 +3,7 @@ let buttons = document.querySelectorAll("button")
 buttons.forEach((button) => {
     button.addEventListener("click", function () {
         playSound(this.innerHTML)
-        show(this.innerHTML)
+
     })
 })
 window.addEventListener('keydown', function (e) {

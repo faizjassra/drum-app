@@ -3,8 +3,6 @@
 window.addEventListener('keydown', function (e) {
     let key = e.key.toUpperCase()
     playSound(key)
-
-
 })
 
 function show(key) {
